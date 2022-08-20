@@ -48,13 +48,13 @@ x_train2d = x_train.reshape((nsamples, nx*ny))
 nsamples, nx, ny = x_test.shape
 x_test2d = x_test.reshape((nsamples, nx*ny))
 
-mlp = MLPClassifier(hidden_layer_sizes=(100, 50, 16), max_iter=100000, batch_size = 1024)
-mlp.fit(x_train2d, y_train)
+clf = svm.SVC()
 
+clf.fit(x_train2d, y_train)
 
 # Create predictions on the testing set
-predictions = mlp.predict(x_test2d)
+y_predict = clf.predict(x_test2d)
 
 # compare the predicted labels to the actual labels and conver to percentage to output
-acc = metrics.accuracy_score(y_test, predictions)*100
+acc = metrics.accuracy_score(y_test, y_predict)*100
 print(f"{acc}% accuracy")
