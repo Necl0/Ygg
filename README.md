@@ -13,7 +13,9 @@ Classification of 15,740 flower images into 16 distinct species
 - [x] Create initial model
 - [ ] Implement a CNN approach
 - [ ] Fine tune the CNN to reach >95% acc
+- [ ] Upload model.pkl in separate zips
 - [ ] Publish articles on my model and the results
+
 
 
 
