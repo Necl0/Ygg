@@ -4,8 +4,9 @@
 Classification of 15,740 flower images into 16 distinct species
 ## Using
 
-The best way to use this model is to create a [Google Colab](https://colab.research.google.com/?utm_source=scs-index) account, download ygg.ipnyb, and open it up in there
+1. Create a [Google Colab](https://colab.research.google.com/?utm_source=scs-index) account
+2. Download Ygg.ipnyb from this repo
+3. Download model.pkl and import it into the Colaboratory notebook
 
-Make sure to also download model.pkl for the actual model
 
 
