@@ -1,4 +1,4 @@
-# 🌹 Ygg
+# 🌳 Ygg
 
 
 Classification of 15,740 flower images into 16 distinct species
