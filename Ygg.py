@@ -8,13 +8,8 @@ import cv2
 import matplotlib.pyplot as plt
 
 from sklearn import metrics
+from sklearn import svm
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.neural_network import MLPClassifier
-from skimage import *
-
-from PIL import Image
-
 
 from google.colab.patches import cv2_imshow
 
@@ -23,6 +18,7 @@ labels = {'astilbe': 1,'bellflower': 2,'black_eyed_susan': 3,'calendula': 4,'cal
       
 imgs = []
 y = []
+
 
 for flower in labels:
   for filename in glob.glob(f"/content/drive/MyDrive/archive/flowers/{flower}/*.jpg"): 
