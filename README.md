@@ -9,6 +9,11 @@ Classification of 15,740 flower images into 16 distinct species
 3. Open it up in a Google Colaboratory notebook
 4. Run all (Runtime -> Run all/Ctrl + F9)
 
+### Progress
+- [x] Create initial model
+- [ ] Implement a CNN approach
+- [ ] Fine tune the CNN to reach >95% acc
+- [ ] Publish articles on my model and the results
 
 
 
